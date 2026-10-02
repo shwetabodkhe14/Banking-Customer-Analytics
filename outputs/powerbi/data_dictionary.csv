@@ -1,0 +1,19 @@
+Column_Name,Data_Type,Description,Business_Category
+age,Integer,Age of the customer in years (range: 18 to 95),Customer Demographics
+job,Text,Occupation or employment category of the customer (12 unique values),Customer Demographics
+marital,Text,"Marital status of the customer (married, single, divorced/widowed)",Customer Demographics
+education,Text,"Highest education level attained (primary, secondary, tertiary, unknown)",Customer Demographics
+default,Text,"Credit default indicator specifying if client has credit currently in default (no, yes)",Financial
+balance,Integer,Average yearly bank account balance in EUR (retains legitimate overdrafts),Financial
+housing,Text,"Housing loan status indicating if client has an active mortgage (no, yes)",Loan Information
+loan,Text,"Personal loan status indicating if client has an active personal loan (no, yes)",Loan Information
+contact,Text,"Communication channel utilized for customer contact (cellular, telephone, unknown)",Marketing
+day,Integer,Last contact day of the month (1 to 31),Marketing
+month,Text,Last contact month of the calendar year (january through december),Marketing
+duration,Integer,Duration of the last customer phone conversation in seconds,Marketing
+campaign,Integer,Number of contacts performed during this marketing campaign for this client,Marketing
+pdays,Integer,Days elapsed after previous campaign contact (-1 indicates not previously contacted),Campaign History
+previous,Integer,Number of contact interactions performed prior to this campaign for this client,Campaign History
+poutcome,Text,"Outcome of the previous marketing campaign (failure, other, success, unknown)",Campaign History
+y,Text,"Target variable indicating whether client subscribed to a term deposit (no, yes)",Target
+age_group,Text,"Derived demographic age cohort engineered during cleaning (18-25, 26-35, 36-45, 46-55, 56-65, 66+)",Customer Demographics

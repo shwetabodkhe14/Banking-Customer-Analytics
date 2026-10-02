@@ -1,0 +1,91 @@
+======================================================================
+BANKING CUSTOMER & MARKETING ANALYTICS: BUSINESS INSIGHTS REPORT
+======================================================================
+Total Records Analyzed: 45,211
+Dataset Attributes: 18 columns (17 raw source attributes + 1 derived feature 'age_group')
+Overall Campaign Subscription Rate: 11.7% (5,289 subscriptions)
+----------------------------------------------------------------------
+
+1. EXECUTIVE SUMMARY & BENCHMARK PERFORMANCE
+- The dataset indicates an overall term deposit subscription rate of 11.7%.
+- Out of 45,211 contacted banking clients, 5,289 agreed to open a term deposit,
+  while 39,922 (88.30%) did not subscribe.
+
+2. HIGHEST-PERFORMING CUSTOMER DEMOGRAPHICS
+- By Job Category:
+  * The analysis shows that 'student' accounts achieved the highest subscription rate at 28.68%,
+    followed by 'retired' clients at 22.79%.
+  * In contrast, high-volume segments like 'blue-collar' (7.27%) and
+    'services' (8.88%) exhibited below-average conversion rates.
+- By Age Bracket (Engineered Feature 'age_group'):
+  * Clients aged 66+ exhibited the highest subscription rate at 42.61%, followed by the 18-25 cohort (23.95%).
+  * The primary working-age segment (36-45 years) demonstrated the lowest subscription rate at 9.39%.
+- By Education Level:
+  * Clients holding tertiary education had a subscription rate of 15.01%,
+    outperforming secondary (10.56%) and primary education (8.63%).
+
+3. IMPACT OF DEBT & LOAN PRODUCTS
+- Housing Loans:
+  * The dataset reveals that customers without a housing loan subscribed at 16.7%,
+    compared to only 7.7% for clients with an active housing loan.
+- Personal Loans:
+  * Similarly, customers without personal loans subscribed at 12.66%,
+    compared to 6.68% for clients with personal loans.
+  * The data indicates that existing debt obligations correlate strongly with lower willingness to commit capital to term deposits.
+
+4. MARKETING COMMUNICATION & CONTACT DYNAMICS
+- Communication Channel:
+  * Cellular communication yielded a subscription rate of 14.92%,
+    compared to telephone (13.42%) and unknown contact methods (4.07%).
+- Call Duration Profile:
+  * The data shows that customers who subscribed had an average contact duration of 537.29 seconds
+    (8.95 minutes, median: 426.00 seconds).
+  * In comparison, clients who did not subscribe averaged 221.18 seconds
+    (3.69 minutes, median: 164.00 seconds).
+  * Calls with subscribing clients were on average 316.1 seconds (+142.9%) longer.
+  * (Note: This documents an observed correlation; duration is an outcome of an engaged conversation rather than an exogenous cause).
+
+5. PREVIOUS CAMPAIGN EXPOSURE & HISTORICAL OUTCOMES
+  * The analysis shows that when a customer's prior campaign outcome was 'success', the current subscription rate reached 64.73%.
+  * By contrast, clients with prior 'failure' converted at 12.61%, and those with unknown/no prior history converted at 9.16%.
+  * Prior successful engagement is the single strongest indicator of subscription in this dataset.
+
+6. FINANCIAL PROFILE & BALANCE DISTRIBUTION
+  * Subscribed customers (y='yes') held an average balance of EUR 1,804.27 (median: EUR 733.00).
+  * Non-subscribed clients (y='no') held an average balance of EUR 1,303.71 (median: EUR 417.00).
+  * Subscribed clients held on average EUR 500.55 (+38.4%) higher balances.
+
+7. SUMMARY ANSWERS TO THE 10 STRATEGIC BUSINESS QUESTIONS
+  [Q1] What percentage of customers subscribed to a term deposit?
+       --> 11.7% of customers (5,289 of 45,211) subscribed to a term deposit.
+
+  [Q2] Which job categories have the highest subscription rate?
+       --> The job categories with the highest subscription rates are student (28.68%, 269/938), followed by retired (22.79%) and unemployed (15.5%).
+
+  [Q3] Which education groups have the highest subscription rate?
+       --> Customers with 'tertiary' education had the highest subscription rate at 15.01% (1,996/13,301), followed by 'unknown' (13.57%).
+
+  [Q4] How does housing loan status relate to subscription?
+       --> Customers without a housing loan subscribed at 16.7% (3,354/20,081), which is more than double the subscription rate of customers with a housing loan (7.7%, 1,935/25,130).
+
+  [Q5] How does personal loan status relate to subscription?
+       --> Customers without personal loans had a subscription rate of 12.66% (4,805/37,967) compared to only 6.68% (484/7,244) for customers with personal loans.
+
+  [Q6] Which contact method has the highest subscription rate?
+       --> 'cellular' communication yielded the highest subscription rate at 14.92% (4,369/29,285), followed by 'telephone' at 13.42%, while 'unknown' contact had only 4.07%.
+
+  [Q7] How does previous campaign outcome relate to the current outcome?
+       --> Clients with previous campaign outcome 'success' had a massive 64.73% subscription rate (978/1,511), compared to 12.61% for 'failure' and 9.16% for 'unknown'.
+
+  [Q8] Which age group has the highest subscription rate?
+       --> The '66+' age group had the highest subscription rate at 42.61% (320/751), followed by the '18-25' group at 23.95%.
+
+  [Q9] What is the average balance of customers who subscribed versus those who did not?
+       --> Customers who subscribed (y='yes') had an average balance of EUR 1,804.27 (median: EUR 733.00), whereas customers who did not subscribe (y='no') had an average balance of EUR 1,303.71 (median: EUR 417.00). Subscribed customers held on average EUR 500.55 (+38.4%) higher balances.
+
+  [Q10] How does call duration relate to subscription?
+       --> Subscribed customers (y='yes') had an average call duration of 537.29 seconds / 8.95 mins (median: 426.00 seconds / 7.10 mins), compared to 221.18 seconds / 3.69 mins (median: 164.00 seconds / 2.73 mins) for non-subscribed customers (y='no'). Calls with clients who subscribed lasted on average 316.1 seconds (+142.9%) longer.
+
+======================================================================
+END OF REPORT
+======================================================================
